@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ShopOn!</title>
+	
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	 <script src="js/bootstrap.min.js"></script>
+	<style>
+	 .navbar {
+      margin-bottom: 0;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 2px;
+      border-radius: 0;
+       font-family: Montserrat, sans-serif;
+  }
+ 
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #0000FF !important;
+      background-color:#E6E6FA !important;
+  }
+	 .bg-ad {
+    background-color: #E6E6FA;
+}
+
+   .dropdown-menu{
+     background-color: #000000;
+	  color:#FFFFFF;
+   }
+   .dropdown-menu li>a{color:white;}
+   .carousel-caption{color:#FF0066;}
+   
+   </style>
+   </head>
+   <body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+   <a class="navbar-brand" href="#">ShopOn</a>  
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="#">Trending</a></li>
+      <li><a href="#">Contact Us</a></li>  
+    </ul>
+	<div id="navbar" class="collapse navbar-collapse ">
+    <ul class="nav navbar-nav navbar-right">
+	<li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span>Sign In</a>
+        <ul class="dropdown-menu">
+          <li ><a href="Login.html">Login</a></li>
+          <li><a href="Signup.html">Sign Up</a></li>
+        </ul>
+      </li>
+      <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li> 
+    </ul>
+   </div>
+   </div>
+ </nav>
+	<br><br><br>
+	<div class="row text-center">
+		<h1><strong>Signup Form</strong></h1>
+	</div><br>
+	<div class="container">
+            <div class="row">
+				<div class="col-sm-2 well bg-ad">
+					<h3 class="text-center"><span class="label label-danger">Sale On</span></h3><br>
+					<div class="row img-rounded text-center">
+					<img src="images/ad9.jpg">
+					
+					</div><br>
+					<div class="row img-rounded text-center">
+					 <img src="images/ad1.jpg">
+					</div><br>
+					<div class="row img-rounded text-center">
+					<img src="images/ad3.jpg">
+					</div><br>
+				</div>	
+						
+						
+						<div class="col-sm-8 ">
+                           <div class="jumbotron bg-ad"><br>
+								<form class="form-horizontal" role="form" method="post" action="">
+									<div class="form-group">
+									  <label class="control-label  col-sm-2">Name:</label>
+									  <div class="col-sm-8">
+										<input type="text" class="form-control" id="name" placeholder="Enter name">
+									  </div>
+									  <label class="label label-danger" ></label>   <!-- label value-->
+									</div>
+									 <div class="form-group">
+									  <label class="control-label  col-sm-2">Username:</label>
+									  <div class="col-sm-8">
+										<input type="text" class="form-control" id="username" placeholder="Enter Username">
+									  </div>
+									  <label class="label label-danger" ></label>   <!-- label value-->
+									</div>
+									<div class="form-group">
+									  <label class="control-label  col-sm-2">Email:</label>
+									  <div class="col-sm-8">
+										<input type="email" class="form-control" id="email" placeholder="Enter email">
+									  </div>
+									  <label class="label label-danger" ></label>   <!-- label value-->
+									</div>
+									<div class="form-group">
+									  <label class="control-label col-sm-2">Password:</label>
+									  <div class="col-sm-8">
+										<input type="password" class="form-control" id="pwd" placeholder="Enter password">
+									  </div>
+									  <label class="label label-danger" ></label>
+									</div>
+									<div class="form-group">
+									  <label class="control-label col-sm-2">Retype Password:</label>
+									  <div class="col-sm-8">
+										<input type="password" class="form-control" id="repwd" placeholder="Retype password">
+									  </div>
+									  <label class="label label-danger" ></label>
+									</div>
+									<br>
+									<div class="form-group">
+									  <div class="col-sm-offset-4 col-sm-6">
+									    <input type="submit" class="btn btn-info btn-lg " value="Submit" name="LoginButton" />
+									  </div>
+									</div>
+								  </form>
+						   </div>
+                        </div>
+						<div class="col-sm-2 well bg-ad">
+							<h3 class="text-center"><span class="label label-danger">Sale On</span></h3><br>
+								<div class="row img-rounded text-center">
+								 <img src="images/ad8.jpg">
+								</div><br>
+								<div class="row img-rounded text-center">
+								 <img src="images/ad7.jpg">
+								</div><br>
+								<div class="row img-rounded text-center">
+								  <img src="images/ad4.jpg">
+								</div><br>
+						</div>
+						
+						
+            </div>
+	</div>
+ 
+   <hr>
+	<div class="container">
+ <div class="row">
+    <footer>
+        <p class="pull-right"><a href="Signup.html" class="btn btn-info" role="button"><span class="glyphicon glyphicon-menu-up"></span></a></p>
+        <p>&nbsp;&nbsp;&copy;2016 <strong>ShopOn</strong><br><em>&nbsp;&nbsp;&reg; All Rights Reserved</em></p>
+      </footer>
+   </div>
+   </div>
+   </body>
+   </html>
