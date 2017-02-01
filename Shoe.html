@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ShopOn!</title>
+	
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/simple-sidebar.css" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	 <script src="js/bootstrap.min.js"></script>
+	 <script src="js/jquery.js"></script>
+	<style>
+	 .navbar {
+      margin-bottom: 0;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 2px;
+      border-radius: 0;
+       font-family: Montserrat, sans-serif;
+  }
+ 
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #0000FF !important;
+      background-color:#E6E6FA !important;
+  }
+	 .bg-ad {
+    background-color: #E6E6FA;
+}
+	.bg-lb {
+    background-color: #FFF0F5;
+}
+	.bg-gr {
+    background-color: #808080;
+}
+	.bg-wt {
+    background-color: #FFFFFF;
+}
+	.art{
+	background-color:black;
+	}
+	.wt{
+	  color:white;
+	}
+
+   .dropdown-menu{
+     background-color: #000000;
+	  color:#FFFFFF;
+   }
+   .dropdown-menu li>a{color:white;}
+   .carousel-caption{color:#FF0066;}
+   
+   .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #FFFFFF;
+}
+#myCarousel2.carousel-control.right, #myCarousel2.carousel-control.left  {
+      background-image: none;
+	  color:#FFFFFF;
+  }
+
+.carousel-indicators li {
+    border-color: #FFFFFF;
+}
+
+.carousel-indicators li.active {
+    background-color: #FFFFFF;
+}
+
+   
+   </style>
+   </head>
+   <body class="bg-ad">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+   <a class="navbar-brand" href="#menu-toggle" id="menu-toggle">ShopOn</a>  
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="#">Trending</a></li>
+      <li><a href="#">Contact Us</a></li>  
+    </ul>
+	<div id="navbar" class="collapse navbar-collapse ">
+	
+    <ul class="nav navbar-nav navbar-right">
+	<li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span>Sign In</a>
+        <ul class="dropdown-menu">
+          <li ><a href="Login.html">Login</a></li>
+          <li><a href="Signup.html">Sign Up</a></li>
+        </ul>
+      </li>
+      <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li> 
+    </ul>
+	<form class="navbar-form navbar-right" role="search">
+        <div class="form-group input-group">
+          <input type="text" class="form-control" placeholder="Search..">
+          <span class="input-group-btn">
+            <button class="btn btn-default bg-ad" type="button">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </span>
+        </div>
+      </form>
+   </div>
+   </div>
+ </nav><br><br>
+  <!-- toggle-->
+ <div id="wrapper">
+
+        <!-- Sidebar -->
+		<form role="form" action="Shoe.html" method="post">
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                        Category
+                </li>
+                <li>
+					<a href="#">Shoes</a>
+                </li>
+				   <li style="color:white;">&nbsp;Brand</li>
+				<div class="checkbox">
+						 &nbsp;&nbsp;&nbsp;&nbsp;<label class="wt"><input type="checkbox" name="brand" value="Nike">Nike</label>
+						</div>
+						<div class="checkbox">
+						 &nbsp;&nbsp;&nbsp;&nbsp;<label class="wt"><input type="checkbox" name="brand" value="Adidas">Adidas</label>
+						</div>
+						<div class="checkbox">
+						 &nbsp;&nbsp;&nbsp;&nbsp;<label class="wt"><input type="checkbox" name="brand" value="Puma">Puma</label>
+						</div>
+						<li style="color:white;">&nbsp;Price</li>
+							<div class="checkbox">
+						 &nbsp;&nbsp;&nbsp;&nbsp;<label class="wt"><input type="checkbox" name="price" value="1">< Rs.1000</label>
+						</div>
+						<div class="checkbox">
+						 &nbsp;&nbsp;&nbsp;&nbsp;<label class="wt"><input type="checkbox" name="price" value="2">Rs.1000 - Rs.2000</label>
+						</div>
+						<div class="checkbox">
+						 &nbsp;&nbsp;&nbsp;&nbsp;<label class="wt"><input type="checkbox" name="price" value="3">>Rs.2000</label>
+						</div><br>
+						&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" class="btn btn-default btn-xs" value="search" /><br>
+                <li>
+                    <a href="#">Men's Fashion</a>
+                </li>
+                <li>
+                    <a href="#">Mobiles</a>
+                </li>
+                <li>
+                    <a href="#">Books</a>
+                </li>
+                <li>
+                    <a href="#">Computers</a>
+                </li>
+                <li>
+                    <a href="#">Electronics</a>
+                </li>
+            </ul>
+        </div>
+		</form>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+				  <div class="row">
+					<div class="col-sm-4">
+					  <div class="panel panel-primary">
+						<div class="panel-heading">BLACK FRIDAY DEAL</div>
+						<div class="panel-body"><img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+						<div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+					  </div>
+					</div>
+					<div class="col-sm-4">
+					  <div class="panel panel-primary">
+						<div class="panel-heading">BLACK FRIDAY DEAL</div>
+						<div class="panel-body"><img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+						<div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+					  </div>
+					</div>
+					<div class="col-sm-4">
+					  <div class="panel panel-primary">
+						<div class="panel-heading">BLACK FRIDAY DEAL</div>
+						<div class="panel-body"><img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+						<div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+					  </div>
+					</div>
+				  </div>
+				</div><br><br>
+		</div>
+		
+		<!--footer -->
+		<div class="container">
+        <div class="row">
+    <footer>
+        <p class="pull-right"><a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-menu-up"></span></a></p>
+        <p>&nbsp;&nbsp;&copy;2016 <strong>ShopOn</strong><br><em>&nbsp;&nbsp;&reg; All Rights Reserved</em></p>
+      </footer>
+   </div>
+   </div>
+   </div> <!-- /#page-content-wrapper -->
+  </div>
+	</div>
+	<script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+   </body>
+   </html>
